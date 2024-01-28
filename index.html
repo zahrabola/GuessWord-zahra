@@ -8,19 +8,24 @@
     <link rel="stylesheet" href="src/styles.css" >
 </head>
 <body>
-    <div class="container text-center mt-3">
-        <h2>Guess The Word </h2>
-        <div class="row">
-            <div class="card  mx-auto p-2 mt-2" style="width:800px " >
+    <div class="container  mt-3">
+        <h2 class="text-center">Guess The Word </h2>
+        <div class="row justify-content-center">
+            <div class="col-sm-8 ">
+            <div class="card" >
                 <div class="card-body">
+
                     <div class="content">
                         <input type="text" class="inputtyping" maxlength="1">
                         <div class="inputs"></div>
-                        <p class="theme">Theme:</p>
-                        <p class="hint">Hint:</p>
-                        <p class="guessleft">Remaining guesses:</p>
-                        <p class="wrongletter" > Wrong Letters:</p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item theme">Theme:</li>
+                            <li class="list-group-item hint">Hint:</li>
+                            <li class="list-group-item guessleft">Remaining guesses:</li>
+                            <li class="list-group-item wrongletter">Wrong Letters:</li>
+                        </ul>
                     </div>
+               </div>
             </div>
         </div>
        
